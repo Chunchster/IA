@@ -1,0 +1,97 @@
+body {
+  padding-top: 20px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* mensaje y boton*/
+.jumbotron {
+  text-align: center;
+  background-color: rgba(255, 248, 248, 0.552);
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.card {
+  width: 1110px; 
+  height: 800px;
+  margin-top: 5px;
+}
+
+.svgmap { 
+
+  background-repeat: no-repeat;
+  overflow: hidden;
+   
+}
+
+circle { 
+  fill: rgb(202, 24, 18);
+  stroke: #141C25;
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+.label 
+{ 
+  font-family: arial;
+  stroke: #ffffff;
+  cursor: pointer;
+}
+
+line { 
+  stroke: #1E1E1E;
+  stroke-dasharray: 5,5;
+  stroke-width: 2;
+}
+
+line.shortest { 
+  stroke: rgb(0, 127, 245);
+  stroke-dasharray: 5,0;
+  stroke-width: 5;
+  -webkit-box-shadow: 4px 5px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 5px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: 4px 5px 5px -1px rgba(0,0,0,0.75);
+}
+
+.line-label { 
+  font-family: arial;
+  font-size: 12px;
+  stroke: #000000;
+}
+
+/* Responsive*/
+@media (max-width: 768px) {
+  .exp-imp{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .col-auto{
+    margin: 5px 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
